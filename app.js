@@ -17,12 +17,12 @@ const addition = require('./utils.js')
 const sum = addition(5, +2)
 console.log(sum)
 
-// const fs = require('fs')
+const fs = require('fs')
 
-// fs.writeFileSync('notes.txt', 'This file is created with node.js!')
+fs.writeFileSync('notes.txt', 'This file is created with node.js!')
 
-// fs.appendFileSync('notes.txt', ' My name is Yakub.')
+fs.appendFileSync('notes.txt', ' My name is Yakub.')
 
-// fs.appendFileSync('notes.txt', ' Am about  to learn more about node.js.')
+fs.appendFileSync('notes.txt', ' Am about  to learn more about node.js.')
 
-// fs.appendFileSync('notes.txt',  ' I live in kwara.')
+fs.appendFileSync('notes.txt',  ' I live in kwara.')
